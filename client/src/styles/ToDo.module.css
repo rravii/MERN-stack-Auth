@@ -1,0 +1,22 @@
+.glass{
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px #4747470b;
+    backdrop-filter: blur(7.1px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    /* to add tailwind classes */
+    @apply border-4 border-gray-50 shrink-0 w-[100%] rounded-3xl py-20 m-5 px-7 min-w-max;
+}
+
+.btn{
+    @apply border bg-indigo-500 w-1/4 rounded-lg text-gray-50 text-xl shadow-sm text-center mr-5; 
+}
+
+.btn:hover{
+    background-color: #ff6a6a;
+}
+
+.textbox{
+    @apply border-0 px-5 py-4 rounded-xl w-3/4 shadow-sm text-lg mr-5;
+    @apply focus:outline-none;
+}
